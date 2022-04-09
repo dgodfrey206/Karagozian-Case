@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sws.dir/superwordsearch.cpp.o -o sws 

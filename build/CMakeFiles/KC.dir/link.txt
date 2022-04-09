@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/KC.dir/superwordsearch.cpp.o -o KC 

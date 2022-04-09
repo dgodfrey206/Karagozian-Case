@@ -1,0 +1,4 @@
+/home/dgodfrey/solution/build/CMakeFiles/wordsearch.dir
+/home/dgodfrey/solution/build/CMakeFiles/nearest.dir
+/home/dgodfrey/solution/build/CMakeFiles/edit_cache.dir
+/home/dgodfrey/solution/build/CMakeFiles/rebuild_cache.dir
