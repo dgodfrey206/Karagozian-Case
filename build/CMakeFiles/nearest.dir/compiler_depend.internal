@@ -4,7 +4,7 @@
 CMakeFiles/nearest.dir/nearest_neighbor.cpp.o
  /home/dgodfrey/solution/nearest_neighbor.cpp
  /usr/include/stdc-predef.h
- /usr/include/c++/7/unordered_set
+ /usr/include/c++/7/unordered_map
  /usr/include/c++/7/utility
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h
@@ -160,7 +160,7 @@ CMakeFiles/nearest.dir/nearest_neighbor.cpp.o
  /usr/include/c++/7/bits/node_handle.h
  /usr/include/c++/7/optional
  /usr/include/c++/7/bits/enable_special_members.h
- /usr/include/c++/7/bits/unordered_set.h
+ /usr/include/c++/7/bits/unordered_map.h
  /usr/include/c++/7/iostream
  /usr/include/c++/7/ostream
  /usr/include/c++/7/ios
@@ -221,8 +221,4 @@ CMakeFiles/nearest.dir/nearest_neighbor.cpp.o
  /usr/include/c++/7/tr1/poly_hermite.tcc
  /usr/include/c++/7/tr1/poly_laguerre.tcc
  /usr/include/c++/7/tr1/riemann_zeta.tcc
- /usr/include/c++/7/map
- /usr/include/c++/7/bits/stl_tree.h
- /usr/include/c++/7/bits/stl_map.h
- /usr/include/c++/7/bits/stl_multimap.h
 

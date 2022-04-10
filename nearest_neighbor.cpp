@@ -141,8 +141,7 @@ int main() {
   for (int i = 0; i < adj.size(); i++) {
     std::cout << i << ": ";
     for (int point : adj[i]) {
-      if (point != i)
-        std::cout << point << " ";
+      std::cout << point << " ";
     }
     std::cout << std::endl;
   }
