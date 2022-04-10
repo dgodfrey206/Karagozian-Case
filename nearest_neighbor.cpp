@@ -80,8 +80,7 @@ auto nearest_neighbors(std::unordered_map<coords<int>, std::vector<int>> indices
     // iterate over neighboring cells
     for (int i = 0; i < 13; i++) {
       coords<int> neigh_cell = cell + neighbors[i];
-      // neighbor is non-empty, find pairs of points between it and the current
-      // cell
+      // neighbor is non-empty, find pairs of points between it and the current cell
       if (indices.find(neigh_cell) != indices.end()) {
         auto js = indices[neigh_cell];
         brute_force(ps, is, js, p, r);
@@ -94,7 +93,7 @@ auto nearest_neighbors(std::unordered_map<coords<int>, std::vector<int>> indices
 // creates an integer lattice with r slots. Each point will be rounded
 auto create_cell_list(std::vector<coords<float>> p, float r) {
   assert(r > 0);
-  // maps each grid point in the lattice to the 3d points the belong to it
+  // maps each grid point in the lattice to the 3d points that belong to it
   std::unordered_map<coords<int>, std::vector<int>> indices;
   int n = p.size();
   // each grid point in the lattice is of size r, round each point down
