@@ -39,7 +39,7 @@ go to `M-1` (rightmost column). Grid coordinates are specified as `(row_num, col
 
 Here is an example to illustrate the difference between WRAP and NO_WRAP:
 
-| ----------- | 0 | 1 | 2 |
+|  | 0 | 1 | 2 |
 | ----------- | ----------- | ----------- | ----------- |
 | 0 | A | B | C |
 | 1 | D | E | F |
