@@ -1,4 +1,7 @@
-Karagozian & Case
+Build
+===
+
+The executables are already present in the `solutions/` folder, so to execute you would simply type `./nearest` and `./wordsearch [file]` on the terminal. However, if you would like to rebuild then simply type `cmake --build build/` (note that to rebuild you would need a C++17-compliant compiler). The `src/` folder contains the example input for both of the programs. `src/words1.txt` and `src/words2.txt` are meant to be run with `./wordsearch`, but you are free to make another file and use it instead.
 
 
 Challenge 1 – Super Word Search
