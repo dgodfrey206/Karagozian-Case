@@ -8,7 +8,7 @@ Challenge 1 – Super Word Search
 =====
 
 Introduction
-===
+----
 
 In a typical word search puzzle (http://en.wikipedia.org/wiki/Word_search), you are given an `NxM` grid of
 seemingly random letters and a list of `P` words that are in the grid. The words can be found going in any of the
@@ -28,7 +28,7 @@ at traditional Word Search. Since you want them to continue spending time on aca
 variant of Word Search (inventively) called Super Word Search.
 
 Description
-===
+----
 
 As with the standard word search, you get an `NxM` grid of letters, and `P` words that are to be found in the grid.
 You also get a "mode" `flag` with one of the following values: `WRAP`, `NO_WRAP`. The `flag` value indicates
