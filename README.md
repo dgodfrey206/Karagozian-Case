@@ -49,7 +49,7 @@ Here is an example to illustrate the difference between WRAP and NO_WRAP:
 - "CAB" is a word that starts at (0,2) and ends at (0,1).
 - "GAD" is a word that starts at (2,0) and ends at (1,0).
 - "BID" is a word that starts at (0,1) and ends at (1,0).
-- 
+
 If we are in `NO_WRAP` mode:
 - "FED" is a word that starts at (1,2) and ends at (1,0).
 - "CAB" is not a word since it requires wrapping in the horizontal direction.
