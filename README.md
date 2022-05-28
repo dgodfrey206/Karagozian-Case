@@ -22,7 +22,7 @@ seemingly random letters and a list of `P` words that are in the grid. The words
 - bottom right to top left
 - top left to bottom right
 - top right to bottom left
-- 
+
 You're a college professor (for English and Topology, of all things), and your students have become very good
 at traditional Word Search. Since you want them to continue spending time on academic games, you created a
 variant of Word Search (inventively) called Super Word Search.
@@ -93,33 +93,33 @@ For this challenge, please write a program that takes as input:
 
 The ID for each point is generated sequentially starting from 0 and incrementing by 1. Your program should
 print to the screen for each node the node id, followed by a colon, followed by a comma separated list the id of
-each neighbor to that node. A neighbor of a node `n` is another node n~i whose distance from nn is less than rr.
-Formally, the neighbors of a node nn is the set of nodes {n~i | ||n − n~i|| < r}. See the example output below.
+each neighbor to that node. A neighbor of a node `n` is another node n<sub>i</sub> whose distance from n is less than r.
+Formally, the neighbors of a node nn is the set of nodes {n<sub>i</sub> | ||n − n<sub>i</sub>|| < r}. See the example output below.
 Please discuss the time and space complexity of your solution and any implementation decisions that you feel
 were important when writing your program.
 
 Input Format
 ---
 
-    r (input radius)
-    N (number of points)
-    x~1 y~1 z~1
-    ...
-    x~N y~N z~N
+r (input radius)\
+N (number of points)\
+x<sub>1</sub> y<sub>1</sub> z<sub>1</sub>\
+...\
+x<sub>N</sub> y<sub>N</sub> z<sub>N</sub>
     
 Output Format
 ----
 
-    0: (n~0)^0... , (n~m~0)^0
-    ...
-    N-1: (n^(N-1))~0 ,..., (n^(N-1))~M~(N-1)
+0: n<sub>0</sub><sup>0</sup>... , n<sup>N-1</sup><sub>m<sub>0</sub></sub>
+...
+N-1: n<sup>N-1</sup><sub>0</sub> ,..., n<sup>N-1</sup><sub>M<sub>N-1</sub></sub>
     
-Where (n~j)^i denotes node i’s jth neighbor.
+Where n<sub>j</sub><sup>i</sup> denotes node i’s jth neighbor.
 
 Constraints
 ----
 
 - `1 ≤ n ≤ 105`, where `n` is the number of nodes.
-- `{(x, y, z) ∈ R3: −107 ≤ x, y, z ≤ 107}`
+- {`(x, y, z)` ∈ R<sup>3</sup>: −107 ≤ `x`,`y`, `z` ≤ 107}
 - The node IDs are enumerated from 1 to `n`.
 - There are no other constraints on the input. You may format the input however you wish.
